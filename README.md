@@ -4,11 +4,25 @@ Pico PPPwn with w5500 module without the need of a flash drive since goldhen is 
 
 ### Upload
 
-Connect Pi Pico while holding boot button, Pico will appear as a external drive, drag and drop the uf2 file provided in [Release Page](https://github.com/MainSilent/PicoPPPwn/releases/)
+Connect Pi Pico while holding boot button, Pico will appear as an external drive, drag and drop the uf2 file provided in [Release Page](https://github.com/MainSilent/PicoPPPwn/releases/)
 
-### Build and Usage Incstruction
+### Demo
 
 [Youtube Video](https://www.example.com)
+
+### Build Instruction
+Make sure the Pico SDK is setup properly
+```sh
+git clone https://github.com/MainSilent/PicoPPPwn.git
+cd PicoPPPwn
+# Move your stage1.bin and stage2.bin here
+py gen_payload.py stage1.bin stage1.h # Rename the variable to 'stage1_bin'
+py gen_payload.py stage2.bin stage2.h # Rename the variable to 'stage2_bin'
+mkdir build
+cd build
+cmake ..
+make
+```
 
 ### Pins
 
