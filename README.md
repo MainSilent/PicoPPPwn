@@ -8,7 +8,7 @@ Connect Pi Pico while holding boot button, Pico will appear as an external drive
 
 ### Demo
 
-[Youtube Video](https://www.example.com)
+[Youtube Video](https://www.youtube.com/watch?v=7L4v-r5ofKI)
 
 ### Build Instruction
 Make sure the Pico SDK is setup properly
