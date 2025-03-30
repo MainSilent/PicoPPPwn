@@ -16,3 +16,7 @@ Pico PPPwn with w5500 module without the need of a flash drive since goldhen is 
 | GP3  | MOSI  |
 | GP4  | MISO  |
 | GP5  | SCS  |
+
+### Warning
+
+I have not tested the release file for firmware 11.00, Please let me know if it's working properly.
