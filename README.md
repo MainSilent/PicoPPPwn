@@ -1,6 +1,6 @@
 # PicoPPPwn
 
-Pico PPPwn with w5500 module without the need of a flash drive since goldhen is in internal flash memory and sent via ethernet connection (In Progress).
+Pico PPPwn with w5500 module without the need of a flash drive since goldhen is in internal flash memory and sent via ethernet connection since it has 2MB of storage.
 
 ### Upload
 
